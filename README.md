@@ -2,5 +2,5 @@
 A Simple ExtJS Application 
 
 Please review the following 'branches';
-  - firstapp
-  - v3
+  1. firstapp
+  2. v3
