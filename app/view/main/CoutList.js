@@ -13,12 +13,12 @@ Ext.define('HotelApp.view.main.CoutList', {
     },
 
     columns: [
-      { text: 'Check-In', dataIndex: 'cin', editor: 'datefield' },
-      { text: 'Check-In Hour', dataIndex: 'inhour', editor: 'textfield' },
-      { text: 'Check-Out', dataIndex: 'cout', editor: 'datefield' },
-      { text: 'Check-Out Hour', dataIndex: 'outhour', editor: 'textfield' },
-      { text: 'Full Name', dataIndex: 'name', editor: 'textfield' },
-      { text: 'Room No', dataIndex: 'room', editor: 'numberfield' }
+      { text: 'Check-In', dataIndex: 'cin', flex:1, editor: 'datefield' },
+      { text: 'Check-In Hour', dataIndex: 'inhour', flex:1, editor: 'textfield' },
+      { text: 'Check-Out', dataIndex: 'cout', flex:1, editor: 'datefield' },
+      { text: 'Check-Out Hour', dataIndex: 'outhour', flex:1, editor: 'textfield' },
+      { text: 'Full Name', dataIndex: 'name', flex:1, editor: 'textfield' },
+      { text: 'Room No', dataIndex: 'room', flex:1, editor: 'numberfield' }
     ],
 
     listeners: {

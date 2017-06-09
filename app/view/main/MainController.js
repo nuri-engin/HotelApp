@@ -25,5 +25,9 @@ Ext.define('HotelApp.view.main.MainController', {
         if (choice === 'yes') {
             //
         }
+    },
+
+    addNewRes: function () {
+      alert('You added :) ');
     }
 });
